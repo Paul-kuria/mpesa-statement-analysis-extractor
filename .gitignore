@@ -1,0 +1,12 @@
+# Environment Variables
+.venv/
+venv/
+.env/
+env/
+
+# Personal files
+pdf/
+archive/
+output/
+file.csv 
+
