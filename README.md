@@ -1,15 +1,15 @@
-# SAFARICOM MPESA STATEMENT EXTRACTOR FOR PERSONAL ACCOUNTING USES
+## SAFARICOM MPESA STATEMENT EXTRACTOR FOR PERSONAL ACCOUNTING USES
 This repository is meant to be used as a simpler way to sort and extract daily transactions done on mpesa for easier accounting into a finance tracker of one's choice.
 The idea is to prevent manual reading and recording of mpesa messages from one's phone, which is quite cumbersome and takes up alot of time. 
 
 (Especially if sortingacross several days)
 
-## PREREQUISITES
+### PREREQUISITES
 1. Have python3.8 or higher installed in your system
 2. Request and download the MPESA statement document for the duration you want to analyse
 3. Check your phone messages for the safaricom Mpesa-statement pdf password (this should be confidential)
 
-## SETUP
+### SETUP
 Run
 ```console
 pip install -r requirements.txt
@@ -17,12 +17,14 @@ pip install -r requirements.txt
 
 Ensure your computer has java installed, tabula-py library requires it. 
 For Ubuntu 20.04 and above, follow these instructions:
+
 ```console
 sudo apt update
 ```
 
 ```console
-sudo apt install default-jre```
+sudo apt install default-jre
+```
 
 ```console
 sudo apt install default-jdk 
