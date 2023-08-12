@@ -1,4 +1,5 @@
-## SAFARICOM MPESA STATEMENT EXTRACTOR FOR PERSONAL ACCOUNTING USES
+## Safaricom Mpesa Statement Extractor for Personal Accounting Uses
+
 This repository is meant to be used as a simpler way to sort and extract daily transactions done on mpesa for easier accounting into a finance tracker of one's choice.
 The idea is to prevent manual reading and recording of mpesa messages from one's phone, which is quite cumbersome and takes up alot of time. 
 
