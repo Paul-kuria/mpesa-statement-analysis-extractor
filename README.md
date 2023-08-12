@@ -36,11 +36,16 @@ Follow instructions in the link provided: https://phoenixnap.com/kb/install-java
 
 ## RUN program
 The file is run from main.py, and requires 2 inputs from you.
-<input1> : Location of the mpesa pdf file. The code is currently set to pick a location relative to this repo directory, so pls copy the pdf into this repo for best results.
-<input2> : PDF file password
+- Location of the mpesa pdf file. 
+  (The code is currently set to pick a location relative to this repo directory, so pls copy the pdf into this repo for best results.)
+- PDF file password
 
 For example:
 
 ```console
 python main.py mpesa-statement.py 000111
 ```
+
+###### Hint: 
+Use python main.py -h 
+To view the argument format instructions.
